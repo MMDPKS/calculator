@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="247.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo6.formController">
+   <children>
+      <TextField fx:id="numb" layoutX="30.0" layoutY="37.0" prefHeight="25.0" prefWidth="223.0" promptText="Первое число" />
+      <TextField fx:id="numb2" layoutX="310.0" layoutY="37.0" prefHeight="25.0" prefWidth="223.0" promptText="Второе число" />
+      <TextField fx:id="sys1" layoutX="30.0" layoutY="73.0" prefHeight="25.0" prefWidth="223.0" promptText="Система счисление первого числа" />
+      <TextField fx:id="sys2" layoutX="310.0" layoutY="73.0" prefHeight="25.0" prefWidth="223.0" promptText="Система счисление второго числа" />
+      <TextField fx:id="otvet" accessibleRole="TEXT" disable="true" editable="false" layoutX="30.0" layoutY="146.0" prefHeight="73.0" prefWidth="223.0" />
+      <TextField fx:id="sys3" layoutX="30.0" layoutY="111.0" prefHeight="25.0" prefWidth="223.0" promptText="Система счисления для ответа" />
+      <Button fx:id="plus" layoutX="310.0" layoutY="111.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="45.0" text="+" />
+      <Button fx:id="minus" layoutX="370.0" layoutY="111.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="45.0" text="-" />
+      <Button fx:id="umnos" layoutX="431.0" layoutY="111.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="45.0" text="*" />
+      <Button fx:id="delen" layoutX="490.0" layoutY="111.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="45.0" text="/" />
+      <Button fx:id="dz1" layoutX="310.0" layoutY="146.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="223.0" text="Перевод первого числа" />
+      <Button fx:id="dz2" layoutX="310.0" layoutY="187.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="223.0" text="Перевод вторго числа" />
+   </children>
+</AnchorPane>
